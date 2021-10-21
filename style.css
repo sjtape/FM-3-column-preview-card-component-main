@@ -12,12 +12,14 @@ body {
   Font-size: 15px;
 }
 
-body, .learnmore{
-  background-color:hsl(0, 0%, 95%);
+body,
+.learnmore {
+  background-color: hsl(0, 0%, 95%);
 }
 
 .container {
   width: 80%;
+  max-width: 1440px;
   margin: 2em auto;
   display: flex;
   flex-flow: column nowrap;
@@ -25,16 +27,20 @@ body, .learnmore{
   color: hsla(0, 0%, 100%, 0.75);
   font-family: 'Lexend Deca', sans-serif;
 }
+
 .car {
   padding: 3em;
 }
+
 .sedans {
   background-color: hsl(31, 77%, 52%);
   border-radius: 1em 1em 0 0;
 }
+
 .suvs {
   background-color: hsl(184, 100%, 22%);
 }
+
 .luxury {
   background-color: hsl(179, 100%, 13%);
   border-radius: 0 0 1em 1em;
@@ -43,12 +49,15 @@ body, .learnmore{
 .sedans a {
   color: hsl(31, 77%, 52%);
 }
+
 .suvs a {
   color: hsl(184, 100%, 22%);
 }
+
 .luxury a {
   color: hsl(179, 100%, 13%);
 }
+
 .learnmore {
   display: inline-block;
   text-decoration: none;
@@ -73,9 +82,11 @@ h3 {
   .container {
     flex-direction: row;
   }
+
   .sedans {
     border-radius: 1em 0 0 1em;
   }
+
   .luxury {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 1em 1em 0;
